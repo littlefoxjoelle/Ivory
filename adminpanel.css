@@ -1,0 +1,459 @@
+body{
+    height: 100%;
+    background-color: #fcdede; 
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.block-body{
+    width: 950px;
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid #996699;
+}
+
+#block-header{
+    width: auto;
+    height: 90px;
+    border-bottom: 1px solid #996699;
+}
+
+#block-header1{
+   width: 300px;
+   float: left;
+}
+
+#block-header1 h3{
+    font-size: 27px;
+    font-family: 'Neucha', cursive;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #996699;
+}
+
+#block-header1 p{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#block-header1 a{
+    font-size: 27px;
+    font-family: 'Neucha', cursive;
+    color: #996699;
+}
+
+#block-header2{
+    width: 300px;
+    float: right;
+}
+
+#block-header2 p{
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+}
+
+#block-header2 a{
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+    text-decoration: none;
+    color: #996699;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #9b7498;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#block-header2 a:hover{
+    background-color: #9b7498;
+    color: white;
+    transition: 0.2s linear;
+}
+
+#left-nav{
+    width: 200px;
+    height: auto;
+    min-height: 200px;
+    position: absolute;
+}
+
+#left-nav ul{
+   margin-top: 10px;
+}
+
+#left-nav li{
+    margin-left: -30px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #996699;
+    list-style-type: none;
+}
+
+#left-nav a{
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+    text-decoration: none;
+    color: #996699;
+}
+
+#left-nav a:hover{
+    color: #be9bbe;
+    transition: 0.2s linear;
+}
+
+.block-content{
+    width: 747px;
+    min-height: 880px;
+    height: auto;
+    margin-left: 201px;
+    border-left: 1px solid #996699;
+}
+
+.block-parametrs{
+    height: 47px;
+    border-bottom: 1px solid #996699;
+    background-color: #ad7bad;
+}
+
+#title-page{
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    color: white;
+}
+
+#link-nav a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#link-nav a:hover{
+    color: #be9bbe;
+    transition: 0.2s linear;
+}
+
+.block-info{
+    height: 47px;
+    border-bottom: 1px solid #996699;
+}
+
+#count-style{
+    margin-top: 12px;
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.pagination{
+    width: 430px;
+    height: 30px;
+}
+.pagination ul li 
+{
+    width: 23px;
+    height: 23px;
+    padding: 0.3px;
+    margin-right: 1.8px;
+    float: none;
+    list-style-type: none;
+    text-align: center;
+    background-color: #9b7498;
+    float: left;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.pagination ul li a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.pagination ul li a:hover
+{
+   color: #f8d7dd;
+}
+
+
+
+#block-tovar li{
+    list-style-type: none;
+    float: left;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#block-tovar p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+    text-align: center;
+    
+}
+
+#add-style{
+    margin-top: 15px;
+    margin-left: 620px;
+    position: absolute;
+}
+
+#add-style > a{
+    font-size: 16px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #996699;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#add-style > a:hover{
+    color: white;
+    background-color: #704d70;
+    border: none;
+    transition: 0.4s linear;
+}
+
+/* Страница с добавлением товаров */
+
+#edit-tovar label{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+}
+
+#edit-tovar{
+    margin-top: 46px;
+}
+
+#edit-tovar li{
+    margin-top: 10px;
+}
+
+#edit-tovar input{
+    margin-left: 130px;
+    width: 300px;
+    height: 25px;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+#edit-tovar select#type{
+    margin-left: 130px;
+    width: 250px;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+}
+
+#edit-tovar select{
+    margin-left: 130px;
+    width: 250px;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+}
+
+#baseimg-upload{
+    margin-top: 40px;
+}
+
+#baseimg-upload input{
+    margin-left: 37px;
+}
+
+.stylelabel{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+    margin-left: 40px;
+}
+
+.h3click{
+    height: 30px;
+    font-size: 23px;
+    font-family: 'Neucha', cursive;
+    background-color: #ac83ac;
+    color: white;
+    margin-top: 20px;
+    font-weight: normal;
+    width: 746px;
+    margin-left: 0,5px;
+}
+
+.h3click:hover{
+    background-color: #8a6e8a;
+    transition: 0.4s linear;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.h3title{
+    font-size: 23px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.div-editor1{
+    width: 750px;
+    height: auto;
+}
+
+#count-style2{
+    margin-top: 12px;
+    font-size: 21px;
+    font-family: 'Neucha', cursive;
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.block-info2{
+    height: 47px;
+    border-bottom: 1px solid #996699;
+    background-color: #ac83ac;
+}
+
+#submit_form{
+    width: 90px;
+    height: 27px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: 'Neucha', cursive;
+    background-color: white;
+    border: 1px solid #996699;
+    margin-right: 10px;
+}
+
+
+#submit_form:hover{
+    color: white;
+    background-color: #704d70;
+    border: none;
+    transition: 0.4s linear;
+}
+
+#chkbox > li{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Neucha', cursive;
+    color: #704d70;
+}
+
+.div-editor1 li{
+    list-style-type: none;
+}
+
+.div-editor1 input{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.green{
+    color: #704d70;
+}
+
+#form-success{
+    font:bold 14px sans-serif;
+    color: black;
+    background-color: #E6EED9;
+    border: 1px solid #D1E7BC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+#baseimg{
+    margin-top: 40px;
+    height: 120px;
+}
+
+#baseimg img{
+    float: left;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#baseimg a{
+    width: 16px;
+    height: 16px;
+    background: url(img/icons8-удалить-16.png);
+    float: left;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.block-clients{
+    border-bottom: 1px solid #E0E0E0;
+    min-height: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.block-clients > ul{
+  display: none;
+  margin-bottom: 15px;
+}
+.block-clients > ul > li{
+    margin-left: 20px;
+    padding-top: 4px;
+    font: 14px sans-serif;
+}
+.block-clients > ul > li > strong{
+    color: #323232;
+    font-size: 12px;
+}
+.client-datetime{
+    font: 14px sans-serif;
+    margin-left: 10px;
+    color: #767676;
+    margin-top: 10px;
+    margin-bottom: 0px;   
+}
+.client-email{
+    font: 14px sans-serif;
+    margin-left: 10px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;  
+}
+.client-links{
+    font: 14px sans-serif;  
+    position: absolute; 
+    margin-left: 580px; 
+    margin-top: -36px;
+}

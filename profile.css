@@ -1,0 +1,65 @@
+.profile{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.form_profile{
+    width: 100%;
+    max-width: 900px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 48px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: white;
+}
+
+.form_profile a{
+    text-decoration: none;
+}
+
+.img_profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-left: 305px;
+    margin-top: 10px;
+}
+
+.p_spisok{
+    margin: 0 auto;
+    margin-left: 280px;
+    margin-top: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+    color: #614a5f;
+}
+
+.p_logout{
+    margin: 0 auto;
+    margin-left: 380px;
+    margin-top: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+    color: #3b2b39;
+}
+
+.form_profile a:hover{
+    color: #e6b3bb;
+    transition: 0.2s linear;
+}
+
+.s{  
+    margin: 0 auto;
+    margin-left: 315px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #614a5f;
+    font-weight: 700;
+}

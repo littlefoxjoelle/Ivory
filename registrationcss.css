@@ -1,0 +1,298 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.registration{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* Блок с регистрацией */
+
+.block-form-registration{
+    width: 100%;
+    max-width: 720px;
+    height: 509px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 48px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: white;
+}
+
+.block-form-registration ul li{
+   list-style-type: none;
+   font-family: 'Neucha', cursive;
+   font-size: 23px;
+   font-weight: normal;
+   color: #614a5f;
+   margin-top: 3px;
+}
+
+.h2-title{
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    color: #614a5f;
+}
+
+#form_submit{
+    width: 135px;
+    height: 32px;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+    display: block !important;
+    margin: 7px auto;
+    color: #614a5f;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#form_submit:hover{
+    background-color: #7c627a;
+    color: white;
+    transition: 0.3s linear;
+}
+
+.block-form-registration input{
+    width: 220px;
+    height: 23px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 190px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+    border-radius: 4px;
+ }
+
+ .block-form-registration label{
+    position: absolute;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+ }
+
+ .star{
+    position: absolute;
+    margin-top: 7px;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+    color: rgb(212, 57, 57);
+    margin-left: 1px;
+ }
+
+ .message{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(212, 57, 57);
+ }
+
+ .message2{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 170px;
+    color: rgb(212, 57, 57);
+ }
+
+ 
+
+
+/* Блок с входом */
+
+.autorization{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.block-form-autorization{
+    width: 100%;
+    max-width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 210px; 
+    position: relative;
+    border-radius: 8px;
+    padding: 19px 48px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: white;
+}
+
+#form-autorization{
+   list-style-type: none;
+   font-family: 'Neucha', cursive;
+   font-size: 23px;
+   font-weight: normal;
+   color: #614a5f;
+   margin-top: 5px;
+}
+
+.h2-titlea{
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    color: #614a5f;
+}
+
+#form_submit2{
+    width: 100px;
+    height: 32px;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+    display: block !important;
+    margin: 18px auto;
+    color: #614a5f;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+#form_submit2:hover{
+    background-color: #7c627a;
+    color: white;
+    transition: 0.3s linear;
+}
+
+#auth_login{
+    width: 220px;
+    height: 23px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+    border-radius: 4px;
+ }
+
+ #auth_pass{
+    width: 220px;
+    height: 23px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+    border-radius: 4px;
+ }
+
+ .l_l{
+    position: absolute;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+ } 
+
+ .l_p{
+    position: absolute;
+    font-family: 'Neucha', cursive;
+    font-size: 23px;
+ } 
+
+
+ #remindpass{
+     margin-left: 17px;
+     text-decoration: none;
+     color: #362535;
+     font-family: 'Neucha', cursive;
+     font-size: 18px;
+ }
+
+ #remindpass:hover{
+    border-bottom: 1px dashed #614a5f;
+}
+ 
+.pass-show{
+    background: url(img/icons8-показать-25.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: -27px;
+}
+
+.pass-hide{
+    background: url(img/icons8-закрытый-глаз-25.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: -27px;
+}
+
+#form-autorization span{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.reg{
+    color: #614a5f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.p12{
+    margin-left: 70px;
+    color: #614a5f;
+    font-size: 16px;
+    font-family: 'Neucha', cursive;
+}
+
+.p13{
+    margin-left: 170px;
+    color: #614a5f;
+    font-size: 16px;
+    font-family: 'Neucha', cursive;
+}
+
+.message3{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 120px;
+    color: rgb(212, 57, 57);
+ }
+
+ .message4{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 140px;
+    color: rgb(212, 57, 57);
+ }
+
+
+
+
+

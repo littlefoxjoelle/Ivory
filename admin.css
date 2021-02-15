@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+	height:100%;
+   
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    color: #614a5f;
+    font-size: 30px;
+}
+
+#pass-login > li > input{
+    width: 220px;
+    height: 23px;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-left: 5px;
+    color: #614a5f;
+    border-left: 1px solid #775c75;
+    border-top: 1px solid #775c75;
+    border-right: 1px solid #a88aa6;
+    border-bottom: 1px solid #a88aa6;
+    border-radius: 4px;
+}
+
+
+#pass-login > li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#pass-login > li > label{
+    position: absolute;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    color: #614a5f;
+    font-weight: 700;
+}
+
+.block-form-autorizationadmin{
+    width: 100%;
+    max-width: 407px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 320px;
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 48px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    font-family: 'Neucha', cursive;
+}
+
+#submit_enter{
+    width: 65px;
+    height: 25px;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    display: block !important;
+    color: #614a5f;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #614a5f;
+    margin-left: 10px;
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+#submit_enter:hover{
+    background-color: #7c627a;
+    color: white;
+    transition: 0.3s linear;
+}
+
+#msqerror{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    margin-left: 90px;
+    color: rgb(212, 57, 57);
+ }
+
